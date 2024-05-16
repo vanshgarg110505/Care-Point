@@ -1,0 +1,147 @@
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 11vw;
+}
+
+.HWW h1 {
+    /* font-size: 45px; */
+    font-size: clamp(1.875rem, 1.6518rem + 1.1161vw, 3.4375rem);
+    color: #494949;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.HWW h2 {
+    width: auto;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 2vh;
+}
+
+.HWW-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+
+.HWW-img img {
+    width: clamp(15.625rem, 14.1071rem + 7.5893vw, 26.25rem);
+}
+
+.HWW-img h3 {
+    padding-top: 3vh;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #6f6f6e;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.HWW-img h4 {
+    padding-top: 1.25vh;
+    padding-bottom: 3vh;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #0087be;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.HWW-img h5 {
+    width: auto;
+    height: 81px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 0;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.HWW .button-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+.HWW-img-2 {
+    padding-left: 15px;
+}
+
+.HWW button {
+    padding: 10px 25px;
+    border-radius: 21px;
+    filter: drop-shadow(-3.508px 11.476px 20px rgba(0, 1, 1, 0.2));
+    background-color: #0087be;
+    font-size: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.OC {
+    /* width: 38%; */
+    padding-left: 2vw;
+}
+
+.OC h1 {
+    font-size: clamp(1.875rem, 1.6518rem + 1.1161vw, 3.4375rem);
+    color: #494949;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.OC h2 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 2vh;
+}
+
+.OC .btn-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    width: 100%;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #0087be;
+    border: none;
+    cursor: pointer;
+}
+
+.OC button img {
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+.OC .btn-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 500;
+    font-family: "Montserrat";
+    width: 100%;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #e2e2e2;
+    border: none;
+    cursor: pointer;
+}

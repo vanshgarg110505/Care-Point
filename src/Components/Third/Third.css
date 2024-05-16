@@ -1,0 +1,70 @@
+.whychoose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 7vh;
+}
+
+.choose h1 {
+    font-size: clamp(1.625rem, 1.3661rem + 1.2946vw, 3.4375rem);
+    color: #494949;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.choose h2 {
+    padding: 4vh 20vw;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.whychooseus {
+    display: flex;
+}
+
+.subparts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.professional {
+    display: flex;
+    align-items: center;
+}
+
+.professional h1 {
+    font-size: clamp(1.75rem, 1.6964rem + 0.2679vw, 2.125rem);
+    letter-spacing: -1px;
+    color: #6f6f6e;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-left: 20px;
+}
+
+.text-3 h3 {
+    width: 25.5vw;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 12px;
+}
+
+.aunty {
+    display: flex;
+    justify-content: center;
+    padding: 0 4vw;
+}
+
+.aunty img {
+    height: 71vh;
+}

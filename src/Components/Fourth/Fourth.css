@@ -1,0 +1,46 @@
+.image-cover {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+    background-image: url(src/assets/background-2.png);
+    padding: 20vh 10vw;
+    row-gap: 15vh;
+}
+
+.sub-image-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-image-cover img {
+    padding-bottom: 2vh;
+}
+
+.sub-image-cover h1 {
+    font-size: clamp(2.5rem, 2.1429rem + 1.7857vw, 5rem);
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sub-image-cover h2 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.image-cover-hr {
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+    width: 83px;
+    height: 6px;
+    background-color: #ffffff;
+}

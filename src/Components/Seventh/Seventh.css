@@ -1,0 +1,69 @@
+.section-5 {
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 10vh auto;
+}
+
+.section-5 h1 {
+    font-size: 45px;
+    color: #494949;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.section-5 h2 {
+    width: 72vw;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 4vh auto 8vh auto;
+}
+
+.team-members-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+    justify-items: center;
+    align-items: center;
+    grid-gap: 50px 0;
+    padding: 0 6vw;
+}
+
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-members .main-img {
+    width: 90%;
+}
+
+.team-members h1 {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-size: clamp(1.25rem, 1.1607rem + 0.4464vw, 1.875rem);
+    color: #6f6f6e;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.team-members h2 {
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+    width: 100%;
+    font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1.25rem);
+    letter-spacing: 0px;
+    color: #6f6f6e;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #1a1a1a;
+}
+
+.copyright h1 {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #615555;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0 25px;
+}

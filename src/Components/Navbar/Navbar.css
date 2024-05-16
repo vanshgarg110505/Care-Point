@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 11vw 10px 11vw;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 100%;
+}
+
+.logo {
+    width: clamp(7.5rem, 5.8929rem + 8.0357vw, 18.75rem);
+}
+
+.sub-menu {
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu > div {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.sub-menu .text {
+    padding-left: 1vw;
+}
+
+.sub-menu a {
+    font-size: 14px;
+    color: #6a6a6a;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+.sub-text {
+    font-weight: 500;
+}
+
+
+.main-hr {
+    opacity: 0.31;
+    height: 2px;
+    background-color: #c2c2c2;
+    margin: 0 auto;
+    margin-left: 170px;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 1%;
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menubar li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.menubar a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Nexa-ExtraLight";
+    color: #6a6a6a;
+}
